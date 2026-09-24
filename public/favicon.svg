@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>HomeGrid</title>
+  <rect width="64" height="64" rx="18" fill="#0d192a"/>
+  <rect x="16" y="16" width="13" height="13" rx="3" fill="#67b8ff"/>
+  <rect x="35" y="16" width="13" height="13" rx="3" fill="#67b8ff" opacity=".55"/>
+  <rect x="16" y="35" width="13" height="13" rx="3" fill="#67b8ff" opacity=".55"/>
+  <rect x="35" y="35" width="13" height="13" rx="3" fill="#7de1c3"/>
+</svg>

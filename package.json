@@ -1,0 +1,25 @@
+{
+  "name": "smart-home-dashboard",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "backend": "node backend/server.mjs",
+    "backend:test": "node --test backend/tests/api.test.mjs backend/tests/database.test.mjs backend/tests/device-service.test.mjs backend/tests/server-startup.test.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@testing-library/react": "latest",
+    "jsdom": "latest",
+    "vitest": "latest"
+  }
+}
